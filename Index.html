@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="Styles/myStyles.css">
+	<link rel="stylesheet" type="text/css" href="Styles/animate.css">
+	<link href="https://fonts.googleapis.com/css?family=Economica" rel="stylesheet">
+
+</head>
+<body>
+	<div class="parallax">
+		<div id="slide1" class="homeSlide">
+			<div class="bcg" 
+				data-center="background-position: 50% 0px;" 
+				data-top-bottom="background-position: 50% -100px;"
+				data-anchor-target="#slide1"
+			>
+				<div class="hsContainer">
+					<div class="hsContent"
+						data-center="bottom: 200px; opacity: 1;" 
+						data-top-bottom="bottom: 1200px; opacity: 0;"
+						data-anchor-target="#slide1 h2"
+					>
+						<h2 id="jax" class="wow jackInTheBox">Meet Jax!</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="words">
+			<p class="p1">
+				He was born on February 3rd, 2017. He loves to play, cuddle, eat, sleep, go on car <br>
+				rides, meeting new people and generally just being a goofball. He will be 9 months <br> old in October, but he still thinks he's small enough to get in my lap.
+			</p>
+		</div>
+
+		<div id="slide2" class="homeSlide">
+			<div class="bcg" 
+				data-center="background-position: 50% 0px;" 
+				data-top-bottom="background-position: 50% -100px;"
+				data-bottom-top="background-position: 50% 100px;"
+				data-anchor-target="#slide2"
+			>
+				<div class="hsContainer">
+					<div class="hsContent"
+						data--50-bottom="opacity: 0;"
+						data--200-bottom="opacity: 1;"
+						data-center="opacity: 1"
+						data-200-top="opacity: 0"
+						data-anchor-target="#slide2 h2"
+					>
+						<h2 class="wow swing">He sleeps with his eyes open, <br> like a weirdo.</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="spacing"></div>
+
+		<div id="slide3" class="homeSlide">
+			<div class="bcg" 
+				data-center="background-position: 50% 0px;" 
+				data-top-bottom="background-position: 50% -100px;"
+				data-bottom-top="background-position: 50% 100px;"
+				data-anchor-target="#slide3"
+			>
+				<div class="hsContainer">
+					<div class="hsContent"
+						data--50-bottom="opacity: 0;"
+						data--200-bottom="opacity: 1;"
+						data-center="opacity: 1"
+						data-200-top="opacity: 0"
+						data-anchor-target="#slide3 h2"
+					>
+						<h2 class="wow hinge">He was not amused!</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="spacing"></div>
+
+		<div id="slide4" class="homeSlide">
+			<div class="bcg" 
+				data-center="background-position: 50% 0px;" 
+				data-top-bottom="background-position: 50% -100px;"
+				data-bottom-top="background-position: 50% 100px;"
+				data-anchor-target="#slide4"
+			>
+				<div class="hsContainer">
+					<div class="hsContent"
+						data-bottom-top=" opacity: 0;" 
+						data-25p-top=" opacity: 0;"
+						data-top=" opacity: 1;"
+						data-anchor-target="#slide4 h2"
+					>
+					<video class="playing" id="playing" controls="bottom">
+						<source id="playing" src="Images/JaxPlaying.mp4" type="video/mp4">
+					</video>
+						<h2 class="wow rollOut">Playing with his new toy! He's awlays full of energy.</h2>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="spacing"></div>
+
+		<div id="slide5" class="homeSlide">
+			<div class="bcg" 
+				data-center="background-position: 50% 0px;" 
+				data-top-bottom="background-position: 50% -100px;"
+				data-bottom-top="background-position: 50% 100px;"
+				data-anchor-target="#slide5"
+			>
+				<div class="hsContainer">
+					<div class="hsContent"
+						data-bottom-top=" opacity: 0;" 
+						data-25p-top=" opacity: 0;"
+						data-top=" opacity: 1;"
+						data-anchor-target="#slide5 h2"
+					>
+						<h2 class="wow jackInTheBox">But I love him to death! </h2>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+	</div>
+	
+<script type="text/javascript" src="Scripts/skrollr.min.js">
+	var s = skrollr.init();
+
+	s.fresh($('.homeSlide'));
+</script>
+
+<script src="Scripts/wow.min.js"></script>
+
+<script>
+	new WOW().init();
+</script>
+
+
+<script type="text/javascript" src="Scripts/main.js">
+	var video = document.getElementById("playing");
+video.addEventListener("click", function(event){
+	if (video.paused == true) {
+		video.play();
+	}
+	else{
+		video.pause();
+	}
+});
+</script>
+
+</body>
+</html>

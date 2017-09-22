@@ -1,0 +1,167 @@
+body, html {
+	background-image: url('http://www.hello-paws.com/wp-content/uploads/2016/12/Paw-Prints-Background-8.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	padding: 0%;
+	margin: 0%;
+}
+
+img {
+	vertical-align: middle;
+}
+
+h2 {
+	font-family: 'Economica', sans-serif;
+	color: #fff8de;
+	background-color: rgba(15, 25, 47, 0.87);
+	padding: 12px 10px;
+	font-size: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+
+.bcg {
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: contain;
+}
+
+.hsContainer {
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+.hsContent {
+	max-width: 700px;
+	position: absolute;
+}
+
+	#slide1 .bcg {
+		background-image: url('../Images/FirstDay.jpg');
+		background-position:  500px;
+		height: 1000px;
+		width: 100%;
+	}
+	#slide1 .hsContent {
+		top: 50px;
+		left: 18%;
+	}
+
+	#jax {
+		font-size: 100px !important;
+		width: 300px;
+		height: 120px;
+		line-height: 100px !important;
+		animation-name: jackInTheBox;
+		animation-duration: 5s;
+	}
+
+.words {
+	height: 175px;
+	width: 100%;
+	background-color: rgba(15, 25, 47, 0.98);
+	color: #fff8de;
+	text-align: center;
+	font-size: 35px;
+	line-height: 38px;
+	font-family: 'Economica', sans-serif;
+}	
+
+p {
+	margin: 0%;
+	padding-top: 30px;
+	text-align: center;
+}
+
+	#slide2 .bcg {
+		background-image: url('../Images/SleepEyesOpen.jpg');
+		background-position: center;
+		height: 1000px;
+		width: 100%;
+		}
+	#slide2 .hsContent {
+		top: 10%;
+		right: 10%;
+	}
+	#slide2 h2 {
+		width: 475px;
+		animation-name: swing;
+		animation-duration: 5s;
+		animation-delay: 1s;
+	}
+
+		#slide3 .bcg {
+			background-image: url('../Images/Sassy.jpg');
+			background-position: center;
+			height: 1000px;
+			width: 100%;
+		}
+		#slide3 .hsContent {
+			top: 25%;
+			left: 12%;
+		}
+		#slide3 h2 {
+			position: absolute;
+			width: 350px;
+			animation-name: hinge;
+			animation-duration: 5s;
+			animation-delay: 1s;
+
+		}
+
+	#slide4 .bcg {
+		height: 646px;
+		width: 100%;
+	}
+	#slide4 video {
+		width: 1150px;
+		position: absolute;
+	}
+	#slide4 .hsContent {
+		left: 15%;
+
+	}
+	#slide4 h2 {
+		position: absolute;
+		width: 400px;
+		animation-name: rollOut;
+		animation-duration: 3s;
+		animation-delay: 1s;
+	}
+
+		#slide5 .bcg {
+			background-image: url('../Images/NewToy.jpg');
+			background-position: center;
+			height: 1000px;
+			width: 100%;
+		}
+		#slide5 .hsContent {
+			right: 15%;
+			bottom: 20%;
+			width: 400px;
+		}
+		#slide5 h2 {
+			position: absolute;
+			width: 400px;
+			animation-name: jackInTheBox;
+			animation-duration: 5s;
+
+		}
+
+.spacing {
+	height: 150px;
+	width: 100%;
+	padding: 0%;
+	margin: 0%;
+	background-color: rgba(15, 25, 47, 0.98);
+}		
+
+
+
+
+
+
+
